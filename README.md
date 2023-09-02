@@ -36,4 +36,10 @@ frontend:
 5. For the repository add this: `https://github.com/Clooos/Bubble-Card`
 6. For the category select `Theme` then click `Add`
 7. Now click on `Bubble` then on the `Dowload` button
-8. Now go to your personal account settings and select Bubble as your theme
+8. 3. In your configuration.yaml add this: 
+```yaml
+frontend:
+  themes: !include_dir_merge_named themes
+```
+9. Save and restart Home Assistant
+10. Now go to your personal account settings and select Bubble as your theme
