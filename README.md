@@ -12,3 +12,28 @@ With card-mod installed you got this features:
 
 
 <img width="1423" alt="Bubble Theme" src="https://github.com/Clooos/Bubble/assets/36499953/22ddbbfd-1723-4a88-834f-91bf23ba044a">
+
+## Installation
+
+### Without HACS
+
+1. Download this file: [bubble-card.js](https://raw.githubusercontent.com/Clooos/Bubble/main/bubble.yaml)
+2. Add this file into a new folder named `bubble` in the `<config>/themes/` folder
+3. In your configuration.yaml add this: 
+```yaml
+frontend:
+  themes: !include_dir_merge_named themes
+```
+4. Save and restart Home Assistant
+5. Now go to your personal account settings and select Bubble as your theme
+
+### With HACS
+
+1. Download HACS following the instructions on [https://hacs.xyz/docs/setup/download](https://hacs.xyz/docs/setup/download/)
+2. Proceed to the initial configuration following the instructions on [https://hacs.xyz/docs/configuration/basic](https://hacs.xyz/docs/configuration/basic)
+3. On your sidebar go to `HACS` > `Integrations`
+4. click on the icon at the right top corner then on `Custom repositories`
+5. For the repository add this: `https://github.com/Clooos/Bubble-Card`
+6. For the category select `Theme` then click `Add`
+7. Now click on `Bubble` then on the `Dowload` button
+8. Now go to your personal account settings and select Bubble as your theme
