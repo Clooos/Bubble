@@ -33,7 +33,7 @@ frontend:
 2. Proceed to the initial configuration following the instructions on [https://hacs.xyz/docs/configuration/basic](https://hacs.xyz/docs/configuration/basic)
 3. On your sidebar go to `HACS` > `Integrations`
 4. click on the icon at the right top corner then on `Custom repositories`
-5. For the repository add this: `https://github.com/Clooos/Bubble-Card`
+5. For the repository add this: `https://github.com/Clooos/Bubble`
 6. For the category select `Theme` then click `Add`
 7. Now click on `Bubble` then on the `Dowload` button
 8. In your configuration.yaml add this: 
