@@ -17,7 +17,7 @@ With card-mod installed you got this features:
 
 ### Without HACS
 
-1. Download this file: [bubble.yaml](https://raw.githubusercontent.com/Clooos/Bubble/main/bubble.yaml)
+1. Download this file: [bubble.yaml](https://raw.githubusercontent.com/Clooos/Bubble/main/themes/bubble.yaml)
 2. Add this file into a new folder named `bubble` in the `<config>/themes/` folder
 3. In your configuration.yaml add this: 
 ```yaml
