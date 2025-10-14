@@ -199,7 +199,7 @@ Bubble:
       background-color: "#eff1f5" #"rgba(57, 54, 70, 1)" #'rgb(23, 24, 26)'
       primary-background-color: "var(--background-color)"
       background-color-2: "#ccd0da" #"rgb(92, 83, 103)" #'#2e4a74'
-      secondary-background-color: "none"
+      secondary-background-color: "var(--background-color-2)"
       markdown-code-background-color: "var(--background-color)"
 
       # Card
